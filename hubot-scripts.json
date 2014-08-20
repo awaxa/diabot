@@ -1,4 +1,5 @@
 [
+  "chat.coffee",
   "google.coffee",
   "heroku-status.coffee",
   "redis-brain.coffee",
