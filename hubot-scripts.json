@@ -1,5 +1,6 @@
 [
   "google.coffee",
+  "heroku-status.coffee",
   "redis-brain.coffee",
   "shipit.coffee",
   "xkcd.coffee"
