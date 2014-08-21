@@ -9,6 +9,7 @@
   "google.coffee",
   "eight-ball.coffee",
   "heroku-status.coffee",
+  "insult.coffee",
   "lmgtfy.coffee",
   "redis-brain.coffee",
   "shipit.coffee",
