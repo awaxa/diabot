@@ -3,6 +3,7 @@
   "chat.coffee",
   "cloudapp.coffee",
   "coin.coffee",
+  "decide.coffee",
   "dice.coffee",
   "github-status.coffee",
   "google.coffee",
