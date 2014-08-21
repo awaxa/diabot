@@ -12,5 +12,6 @@
   "lmgtfy.coffee",
   "redis-brain.coffee",
   "shipit.coffee",
+  "time.coffee",
   "xkcd.coffee"
 ]
