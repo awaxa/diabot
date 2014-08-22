@@ -1,4 +1,5 @@
 [
+  "abstract.coffee",
   "bang-bang.coffee",
   "chat.coffee",
   "cloudapp.coffee",
