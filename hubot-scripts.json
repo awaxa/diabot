@@ -22,5 +22,6 @@
   "shipit.coffee",
   "time.coffee",
   "web.coffee",
+  "wikipedia.coffee",
   "xkcd.coffee"
 ]
