@@ -12,6 +12,7 @@
   "eight-ball.coffee",
   "fml.coffee",
   "geocodeme.coffee",
+  "getajob.coffee",
   "github-status.coffee",
   "google.coffee",
   "heroku-status.coffee",
