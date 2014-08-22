@@ -14,5 +14,6 @@
   "redis-brain.coffee",
   "shipit.coffee",
   "time.coffee",
+  "web.coffee",
   "xkcd.coffee"
 ]
