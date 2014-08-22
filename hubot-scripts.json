@@ -10,6 +10,7 @@
   "dice.coffee",
   "dilbert.coffee",
   "eight-ball.coffee",
+  "fml.coffee",
   "github-status.coffee",
   "google.coffee",
   "heroku-status.coffee",
