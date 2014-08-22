@@ -11,6 +11,7 @@
   "dilbert.coffee",
   "eight-ball.coffee",
   "fml.coffee",
+  "geocodeme.coffee",
   "github-status.coffee",
   "google.coffee",
   "heroku-status.coffee",
