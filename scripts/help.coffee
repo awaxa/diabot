@@ -61,7 +61,7 @@ module.exports = (robot) ->
       cmds = cmds.filter (cmd) ->
         cmd.match new RegExp(filter, 'i')
       if cmds.length == 0
-        msg.sendPrivate "No available commands match #{filter}"
+        msg.send "No available commands match #{filter}"
         return
 
     prefix = robot.alias or robot.name
@@ -71,7 +71,7 @@ module.exports = (robot) ->
 
     emit = cmds.join "\n"
 
-    msg.sendPrivate emit
+    msg.send emit
 
   robot.router.get "/#{robot.name}/help", (req, res) ->
     cmds = robot.helpCommands().map (cmd) ->
