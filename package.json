@@ -24,6 +24,7 @@
     "cheerio": "^0.7.0",
     "htmlparser": "^1.7.6",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-diabetes": "^1.0.1",
     "hubot-irc": "^0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "jsdom": "^0.2.14",
