@@ -19,6 +19,7 @@
   "insult.coffee",
   "lmgtfy.coffee",
   "redis-brain.coffee",
+  "sudo.coffee",
   "time.coffee",
   "web.coffee",
   "wikipedia.coffee",
