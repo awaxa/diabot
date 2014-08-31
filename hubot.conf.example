@@ -12,6 +12,7 @@ HUBOT_IRC_ROOMS:              #reddit-diabetes,#reddit-diabetes-ops,##diabot
 HUBOT_IRC_SERVER:             chat.freenode.net
 HUBOT_IRC_UNFLOOD:            true
 HUBOT_IRC_USESSL:             true
+HUBOT_WOLFRAM_APPID:          redacted
 HUBOT_WWO_API_KEY:            redacted
 HUBOT_WWO_API_URL:            http://api.worldweatheronline.com/free/v1/tz.ashx
 REDISCLOUD_URL:               redis://redacted
