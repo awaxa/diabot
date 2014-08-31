@@ -1,6 +1,8 @@
 HEROKU_URL:                   http://diabot.herokuapp.com
 HUBOT_AUTHENTIC_JOBS_API_KEY: redacted
 HUBOT_BITLY_ACCESS_TOKEN:     redacted
+HUBOT_DARK_SKY_API_KEY:       redacted
+HUBOT_DARK_SKY_SEPARATOR:     '  '
 HUBOT_IRC_NICK:               diabot
 HUBOT_IRC_NICKSERV_PASSWORD:  redacted
 HUBOT_IRC_NICKSERV_USERNAME:  diabot
