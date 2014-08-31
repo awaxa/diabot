@@ -9,6 +9,8 @@
 #
 # Commands:
 #   hubot question <question> - Searches Wolfram Alpha for the answer to the question
+#   hubot wfa <question> - Searches Wolfram Alpha for the answer to the question
+#   hubot carbs <question> - Searches Wolfram Alpha for the answer to carbs question
 #
 # Notes:
 #   This may not work with node 0.6.x
