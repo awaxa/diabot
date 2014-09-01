@@ -1,7 +1,6 @@
 [
   "abstract.coffee",
   "achievement_unlocked.coffee",
-  "bang-bang.coffee",
   "bitly.coffee",
   "chat.coffee",
   "coin.coffee",
