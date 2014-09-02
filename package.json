@@ -25,7 +25,7 @@
     "htmlparser": "^1.7.6",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-darksky": "^1.0.0",
-    "hubot-diabetes": "^2.0.1",
+    "hubot-diabetes": "^2.0.2",
     "hubot-irc": "^0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "jsdom": "^0.2.14",
