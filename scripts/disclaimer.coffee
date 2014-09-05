@@ -16,5 +16,5 @@
 module.exports = (robot) ->
   robot.respond /disclaim/i, (msg) ->
     reply = 'Remember that none of us are medical professionals in any way.'
-    reply += 'Please consult your physician or healthcare provider when in doubt.'
+    reply += '  Please consult your physician or healthcare provider when in doubt.'
     msg.send reply
