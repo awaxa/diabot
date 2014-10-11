@@ -1,4 +1,5 @@
 [
   "hubot-darksky",
-  "hubot-diabetes"
+  "hubot-diabetes",
+  "hubot-heroku-keepalive"
 ]
