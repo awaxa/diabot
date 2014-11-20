@@ -31,11 +31,3 @@ module.exports = (robot) ->
         msg.send response
       else
         msg.send 'Hmm...not sure'
-
-  robot.respond /carbs( in)? (.*)$/i, (msg) ->
-    Wolfram.query msg.match[2] + 'carbs', (e, result) ->
-      if result and result.length > 0
-        response = result[1]['subpods'][0]['value']
-        msg.send msg.match[2] + ' carbs: ' + response
-      else
-        msg.send 'Hmm...not sure'
