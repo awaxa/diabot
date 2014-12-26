@@ -27,6 +27,13 @@ config =
   access_token: process.env.HUBOT_TWITTER_ACCESS_TOKEN
   access_token_secret: process.env.HUBOT_TWITTER_ACCESS_TOKEN_SECRET
 
+@count_occurences = (str, substr) ->
+  regexp = new RegExp(substr, "g")
+  result = str.match(regexp)
+  (if result then result.length else 0)
+  
+@max_newlines = 5
+
 module.exports = (robot) ->
   twit = undefined
 
@@ -56,4 +63,13 @@ module.exports = (robot) ->
       (err, reply) ->
         if err
           return console.log(err)
-        return msg.send _.unescape(reply.text) if reply.text
+        newline_count = @count_occurrences(reply.text)
+        sentText = reply.text
+        if newline_count > @max_newlines and reply.text
+          index = sentText.indexOf("/n")
+          count = 1
+          while index > 1 and count < @max_newlines
+            index = sentText.indexOf("/n", index + 1)
+            ++count
+          sentText = sentText.substring(0, index) + " [truncated]"
+        return msg.send _.unescape(sentText) if sentText
