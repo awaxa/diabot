@@ -18,6 +18,7 @@
 #   KevinTraver
 #   dosman711
 #   jjasghar
+#   awaxa
 
 _ = require "underscore"
 Twit = require "twit"
@@ -56,4 +57,4 @@ module.exports = (robot) ->
       (err, reply) ->
         if err
           return console.log(err)
-        return msg.send _.unescape(reply.text) if reply.text
+        return msg.send _.unescape(reply.text.replace /\n/g, " ") if reply.text
