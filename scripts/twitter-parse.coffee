@@ -56,4 +56,4 @@ module.exports = (robot) ->
       (err, reply) ->
         if err
           return console.log(err)
-        return msg.send _.unescape(sentText.replace("/n", " ")) if sentText
+        return msg.send _.unescape(reply.text.replace("/n", " ")) if reply.text
