@@ -39,7 +39,7 @@ module.exports = (robot) ->
         response = response.replace /\r?\n|\r/g, '; '
         response = response.replace /\ \|/g, ':'
         response = response.replace /\s*;\s*/g, ' | '
-        response = response.replace /  : /g, ' '
+        response = response.replace RegExp(' : ', 'g'), ' '
         msg.send response
       else
         msg.send 'Hmm... not sure'
